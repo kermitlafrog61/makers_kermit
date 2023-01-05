@@ -50,14 +50,60 @@ SyntaxError # синтаксическая ошибка
 
 # for i in range(10):
 # print(i)
-IndentationError # 
+IndentationError # ошибка отступа
+
+# for i in range(10):
+        # print(i)
+TabError # ошибка табуляции (смешивание табов и пробелов)
+
+# contacts = {
+#     'Valera': 996774888333,
+#     'Adilet': 996887993002
+# }
+# contacts['Zaynab']
+# print('Hello')
+# print(1 + 1)
 
 
+# try except - конструкция для обработки исключений
+# try:
+#     contacts = {
+#         'Valera': 996774888333,
+#         'Adilet': 996887993002
+#     }
+#     contacts['Azamat']
+# except:
+#     print('Нет такого имени')
+# print('Hello world')
+# print(1 + 1)
 
 
+# try:
+#     print('Hello')
+#     10 / 0
+#     print('World')
+# except:
+#     print('что-то пошло не так')
+# else:
+#     print('try работал без ошибок')
+# finally:
+#     print('я отработаю в любом случае')
+"""
+Hello
+что-то пошло не так
+я отработаю в любом случае
+"""
 
+nums = [1, 2, 3, 4]
+try:
+    a = nums[-1]
+    a / 0
+    nums[10]
+except:
+    print('Возникла ошибка')
 
-
-
-
-
+try:
+    print(c)
+    10 / 0
+except (NameError, ZeroDivisionError):
+    print('нет такого имени')

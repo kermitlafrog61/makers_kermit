@@ -1,12 +1,12 @@
 # int() - целочисленный тип данных (1, 2, 5, 7, -9)
-int_num = 20
+# int_num = 20
 
 # float() - числа с плавающей точкой/числа с дробной частью (5.1, -2.3, 10.004)
-float_num = 10.2
+# float_num = 10.2
 
 """ Операторы для работы с числами / арифметические операторы """
-num_1 = 10
-num_2 = 5
+# num_1 = 10
+# num_2 = 5
 
 # num_1 + num_2 # сложение (15)
 # num_1 + num_2 # вычитание (5)
@@ -53,7 +53,7 @@ num_2 = 5
 # divmod(x, y)
 
 
-# pround(5.2) # 5
+# round(5.2) # 5
 # round(5.6) # 6
 # round(5.5) # 5 - в этом случае округлает в четную сторону
 # round(3.1455345345, 2) # 3.15
@@ -74,10 +74,16 @@ num_2 = 5
 # immutable_num = immutable_num + 50
 # print(immutable_num) # 70
 
-counter = 0
-counter += 1 # counter = counter + 1
-print(counter)
+# counter = 0
+# counter += 1 # counter = counter + 1
+# print(counter)
 # += - инкремент
 # -= - декремент
 
 
+# import math
+
+# math.sqrt(25) # 5
+# math.factorial(5) # 120
+# # 5 * 4 * 3 * 2 * 1 = 120
+# math.pi # 3.14...

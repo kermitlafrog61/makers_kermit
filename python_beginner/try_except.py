@@ -44,9 +44,13 @@ ModuleNotFoundError
 ImportError
 
 # ошибки
-for i in range(10)
-    print(i)
+# for i in range(10)
+#     print(i)
+SyntaxError # синтаксическая ошибка
 
+# for i in range(10):
+# print(i)
+IndentationError # 
 
 
 

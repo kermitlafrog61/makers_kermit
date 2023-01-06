@@ -47,7 +47,7 @@ ModuleNotFoundError
 ImportError
 
 
-# ошибки
+""" ошибки """
 # for i in range(10)
 #     print(i)
 SyntaxError # синтаксическая ошибка
@@ -163,13 +163,3 @@ nums = [1, 2, 3, 4]
 
 # contacts = {'Aleha': 3883, 'Ivan': 2833, 'Aliya': 4783}
 # print(contacts.get('Nur', 'Нет такого имени'))
-
-
-# while True:
-#     try:
-#         num = int(input('Введите число '))
-#         print(num + 10)
-#         if num == 0:
-#             break
-#     except ValueError:
-#         print('Введите число!')
